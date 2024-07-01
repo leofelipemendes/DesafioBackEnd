@@ -1,0 +1,17 @@
+2024/06/28 15:41:29 [notice] 1#1: using the "epoll" event method
+2024/06/28 15:41:29 [notice] 1#1: nginx/1.25.5
+2024/06/28 15:41:29 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/06/28 15:41:29 [notice] 1#1: OS: Linux 5.4.0-150-generic
+2024/06/28 15:41:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/28 15:41:29 [notice] 1#1: start worker processes
+2024/06/28 15:41:29 [notice] 1#1: start worker process 28
+2024/06/28 15:41:29 [notice] 1#1: start worker process 29
+2024/06/28 15:41:29 [notice] 1#1: start worker process 30
+2024/06/28 15:41:29 [notice] 1#1: start worker process 31
+2024/06/28 15:41:29 [notice] 1#1: start worker process 32
+2024/06/28 15:41:29 [notice] 1#1: start worker process 33
+2024/06/28 15:41:29 [notice] 1#1: start worker process 34
+2024/06/28 15:41:29 [notice] 1#1: start worker process 35
+2024/06/30 21:18:51 [warn] 31#31: *458 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.96.1, server: , request: "GET /api/play HTTP/1.1", upstream: "fastcgi://192.168.96.3:9000", host: "localhost:8000"
+2024/06/30 21:25:48 [warn] 32#32: *467 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 192.168.96.1, server: , request: "GET /api/play HTTP/1.1", upstream: "fastcgi://192.168.96.3:9000", host: "localhost:8000"
+2024/07/01 03:13:45 [warn] 35#35: *565 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 192.168.96.1, server: , request: "GET /api/import HTTP/1.1", upstream: "fastcgi://192.168.96.3:9000", host: "localhost:8000"
